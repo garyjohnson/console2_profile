@@ -47,16 +47,16 @@
 			<color use="0" r="0" g="0" b="0"/>
 		</font>
 		<window title="ConsoleZ" icon="" use_tab_icon="1" use_console_title="0" show_cmd="1" show_cmd_tabs="1" use_tab_title="1" trim_tab_titles="20" trim_tab_titles_right="0" main_title_format="?U([%u] )?N({%u} )%m?s( - %s)" tab_title_format="%n. ?U([%u] )?N({%u} )%t?s( - %s)"/>
-		<controls show_menu="0" show_toolbar="0" show_statusbar="0" show_tabs="0" hide_single_tab="1" show_scrollbars="0" flat_scrollbars="0" tabs_on_bottom="0" hide_tab_icons="0" show_searchbar="0"/>
+		<controls show_menu="0" show_toolbar="0" show_statusbar="0" show_tabs="1" hide_single_tab="1" show_scrollbars="0" flat_scrollbars="0" tabs_on_bottom="0" hide_tab_icons="0" show_searchbar="0"/>
 		<styles caption="1" resizable="1" taskbar_button="1" border="1" inside_border="2" tray_icon="1" quake_like="0" jumplist="0" integrated_ime="0" quake_animation_time="300">
 			<selection_color r="255" g="255" b="255"/>
 		</styles>
 		<position x="-1" y="-1" dock="-1" snap="-1" z_order="0" save_position="0" w="-1" h="-1" save_size="0"/>
-		<transparency type="1" active_alpha="240" inactive_alpha="205" r="0" g="0" b="0"/>
+		<transparency type="1" active_alpha="249" inactive_alpha="205" r="0" g="0" b="0"/>
 		<fullscreen start_in_fullscreen="1" fullscreen_monitor="0"/>
 	</appearance>
 	<behavior>
-		<copy_paste copy_on_select="0" clear_on_copy="1" no_wrap="1" trim_spaces="1" copy_newline_char="0" sensitive_copy="1" include_left_delimiter="0" include_right_delimiter="0" left_delimiters=" ([" right_delimiters=" )]" eol_spaces="1" rtf="1"/>
+		<copy_paste copy_on_select="1" clear_on_copy="1" no_wrap="1" trim_spaces="1" copy_newline_char="0" sensitive_copy="1" include_left_delimiter="0" include_right_delimiter="0" left_delimiters=" ([" right_delimiters=" )]" eol_spaces="1" rtf="1"/>
 		<scroll page_scroll_rows="0"/>
 		<tab_highlight flashes="3" stay_highligted="1"/>
 		<close allow_closing_last_view="0" confirm_closing_multiple_views="1"/>
@@ -70,7 +70,7 @@
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="83" command="settings"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="112" command="help"/>
 		<hotkey ctrl="0" shift="0" alt="1" extended="0" code="115" command="exit"/>
-		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="112" command="newtab1"/>
+		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="84" command="newtab1"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="113" command="newtab2"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="114" command="newtab3"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="115" command="newtab4"/>
@@ -118,8 +118,8 @@
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="109" command="zoomdec"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="71" command="groupall"/>
 		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="71" command="ungroupall"/>
-		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="84" command="grouptab"/>
-		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="84" command="ungrouptab"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="grouptab"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="ungrouptab"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="clear"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="1" code="45" command="copy"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="65" command="selectall"/>
@@ -157,8 +157,8 @@
 	</hotkeys>
 	<mouse>
 		<actions>
-			<action ctrl="0" shift="0" alt="0" button="1" name="copy"/>
-			<action ctrl="0" shift="1" alt="0" button="1" name="select"/>
+			<action ctrl="0" shift="0" alt="0" button="0" name="copy"/>
+			<action ctrl="0" shift="0" alt="0" button="1" name="select"/>
 			<action ctrl="0" shift="0" alt="0" button="0" name="select_column"/>
 			<action ctrl="0" shift="0" alt="0" button="3" name="paste"/>
 			<action ctrl="1" shift="0" alt="0" button="1" name="drag"/>
@@ -170,8 +170,10 @@
 	</mouse>
 	<tabs>
 		<tab title="ConsoleZ" use_default_icon="0">
-			<console shell="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" init_dir="C:\Users\garyjohnson" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0"/>
-			<background type="0" r="0" g="43" b="54">
+			<console shell="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" init_dir="C:\Users\garyjohnson" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0">
+				<env var="ANSICON" value="1" check="1"/>
+			</console>
+			<background type="0" r="7" g="54" b="66">
 				<image file="" relative="0" extend="0" position="0">
 					<tint opacity="0" r="0" g="0" b="0"/>
 				</image>
