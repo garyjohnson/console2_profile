@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <settings>
-	<console change_refresh="10" refresh="100" rows="25" columns="80" buffer_rows="500" buffer_columns="0" shell="" init_dir="C:\Users\Gary Johnson\repositories" start_hidden="1" save_size="0" background_text_opacity="255">
+	<console change_refresh="10" refresh="100" rows="25" columns="80" buffer_rows="500" buffer_columns="0" shell="" init_dir="C:\Users\garyjohnson" start_hidden="1" save_size="0" background_text_opacity="255">
 		<colors background_text_opacity="255">
 			<color id="0" r="7" g="54" b="66"/>
 			<!-- black -->
@@ -43,16 +43,16 @@
 		</background>
 	</console>
 	<appearance>
-		<font name="Monaco" size="12" bold="0" italic="0" smoothing="0" bold_intensified="0" italic_intensified="0" extra_width="0">
+		<font name="Monaco" size="12" bold="0" italic="0" smoothing="0" bold_intensified="0" italic_intensified="0" extra_width="0" ligature="0">
 			<color use="0" r="0" g="0" b="0"/>
 		</font>
 		<window title="ConsoleZ" icon="" use_tab_icon="1" use_console_title="0" show_cmd="1" show_cmd_tabs="1" use_tab_title="1" trim_tab_titles="20" trim_tab_titles_right="0" main_title_format="?U([%u] )?N({%u} )%m?s( - %s)" tab_title_format="%n. ?U([%u] )?N({%u} )%t?s( - %s)"/>
 		<controls show_menu="0" show_toolbar="0" show_statusbar="0" show_tabs="1" hide_single_tab="1" show_scrollbars="0" flat_scrollbars="0" tabs_on_bottom="0" hide_tab_icons="0" show_searchbar="0"/>
-		<styles caption="1" resizable="1" taskbar_button="1" border="1" inside_border="2" tray_icon="1" quake_like="0" jumplist="0" integrated_ime="0" quake_animation_time="300">
+		<styles caption="1" resizable="1" taskbar_button="1" border="1" inside_border="2" tray_icon="1" quake_like="0" jumplist="0" integrated_ime="0" quake_animation_time="300" hide_when_inactive="0">
 			<selection_color r="255" g="255" b="255"/>
 		</styles>
 		<position x="-1" y="-1" dock="-1" snap="-1" z_order="0" save_position="0" w="-1" h="-1" save_size="0"/>
-		<transparency type="1" active_alpha="249" inactive_alpha="205" r="0" g="0" b="0"/>
+		<transparency type="1" active_alpha="243" inactive_alpha="205" r="0" g="0" b="0"/>
 		<fullscreen start_in_fullscreen="1" fullscreen_monitor="0"/>
 	</appearance>
 	<behavior>
@@ -92,6 +92,8 @@
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="56" command="switchtab8"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="57" command="switchtab9"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="48" command="switchtab10"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="switchtab11"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="switchtab12"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="9" command="nexttab"/>
 		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="9" command="prevtab"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="closetab"/>
@@ -125,6 +127,7 @@
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="65" command="selectall"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="1" code="46" command="clear_selection"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="86" command="paste"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="paste_selection"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="stopscroll"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="scrollrowup"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="scrollrowdown"/>
@@ -153,7 +156,7 @@
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="externalcmd8"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="externalcmd9"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="externalcmd10"/>
-		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="223" command="activate" win="0"/>
+		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="220" command="activate" win="0"/>
 	</hotkeys>
 	<mouse>
 		<actions>
@@ -170,7 +173,7 @@
 	</mouse>
 	<tabs>
 		<tab title="ConsoleZ" use_default_icon="0">
-			<console shell="" init_dir="C:\Users\Gary Johnson\repositories" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0">
+			<console shell="" init_dir="C:\Users\garyjohnson" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0">
 				<env var="ANSICON" value="1" check="1"/>
 			</console>
 			<background type="0" r="7" g="54" b="66">
