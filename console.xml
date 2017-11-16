@@ -1,71 +1,52 @@
-<?xml version="1.0"?>
-<settings>
-	<console change_refresh="10" refresh="100" rows="25" columns="80" buffer_rows="500" buffer_columns="0" shell="" init_dir="C:\Users\garyjohnson" start_hidden="1" save_size="0" background_text_opacity="255">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings lang="auto" icon_size="0">
+	<console shell="powershell" init_dir="C:\Users\garyjohnson\repositories" refresh="100" change_refresh="10" rows="25" columns="80" buffer_rows="10000" buffer_columns="0" start_hidden="1" save_size="0">
 		<colors background_text_opacity="255">
-			<color id="0" r="7" g="54" b="66"/>
-			<!-- black -->
-			<color id="1" r="38" g="139" b="210"/>
-			<!-- blue -->
-			<color id="2" r="133" g="153" b="0"/>
-			<!-- green -->
-			<color id="3" r="42" g="161" b="152"/>
-			<!-- cyan -->
-			<color id="4" r="220" g="50" b="47"/>
-			<!-- red -->
-			<color id="5" r="211" g="54" b="130"/>
-			<!-- magenta -->
-			<color id="6" r="181" g="137" b="0"/>
-			<!-- yellow/brown -->
-			<color id="7" r="238" g="232" b="213"/>
-			<!-- white -->
-			<color id="8" r="0" g="43" b="54"/>
-			<!-- brblack -->
-			<color id="9" r="131" g="148" b="150"/>
-			<!-- brblue -->
-			<color id="10" r="88" g="110" b="117"/>
-			<!-- brgreen -->
-			<color id="11" r="147" g="161" b="161"/>
-			<!-- brcyan -->
-			<color id="12" r="203" g="75" b="22"/>
-			<!-- brred -->
-			<color id="13" r="108" g="113" b="196"/>
-			<!-- brmagenta/violet -->
-			<color id="14" r="101" g="123" b="131"/>
-			<!-- bryellow -->
-			<color id="15" r="253" g="246" b="227"/>
-			<!-- brwhite  -->
+			<color id="0" r="35" g="25" b="0"/>
+			<color id="1" r="65" g="122" b="179"/>
+			<color id="2" r="94" g="167" b="2"/>
+			<color id="3" r="0" g="167" b="170"/>
+			<color id="4" r="215" g="30" b="0"/>
+			<color id="5" r="136" g="101" b="141"/>
+			<color id="6" r="207" g="174" b="0"/>
+			<color id="7" r="219" g="222" b="216"/>
+			<color id="8" r="104" g="106" b="102"/>
+			<color id="9" r="132" g="176" b="216"/>
+			<color id="10" r="152" g="227" b="66"/>
+			<color id="11" r="55" g="229" b="231"/>
+			<color id="12" r="245" g="66" b="53"/>
+			<color id="13" r="188" g="147" b="182"/>
+			<color id="14" r="254" g="254" b="254"/>
+			<color id="15" r="241" g="241" b="240"/>
 		</colors>
-		<cursor style="0" r="255" g="255" b="255"/>
-		<background type="0" r="0" g="0" b="0">
+		<cursor style="0" r="248" g="253" b="174"/>
+		<background type="0" r="35" g="25" b="0">
 			<image file="" relative="0" extend="0" position="0">
-				<tint opacity="0" r="0" g="0" b="0"/>
-			</image>
-		</background>
-	</console>
+				<tint opacity="0" r="0" g="0" b="0"/></image></background></console>
 	<appearance>
-		<font name="Monaco" size="12" bold="0" italic="0" smoothing="0" bold_intensified="0" italic_intensified="0" extra_width="0" ligature="0">
-			<color use="0" r="0" g="0" b="0"/>
-		</font>
-		<window title="ConsoleZ" icon="" use_tab_icon="1" use_console_title="0" show_cmd="1" show_cmd_tabs="1" use_tab_title="1" trim_tab_titles="20" trim_tab_titles_right="0" main_title_format="?U([%u] )?N({%u} )%m?s( - %s)" tab_title_format="%n. ?U([%u] )?N({%u} )%t?s( - %s)"/>
-		<controls show_menu="0" show_toolbar="0" show_statusbar="0" show_tabs="1" hide_single_tab="1" show_scrollbars="0" flat_scrollbars="0" tabs_on_bottom="0" hide_tab_icons="0" show_searchbar="0"/>
-		<styles caption="1" resizable="1" taskbar_button="1" border="1" inside_border="2" tray_icon="1" quake_like="0" jumplist="0" integrated_ime="0" quake_animation_time="300" hide_when_inactive="0">
+		<font name="Monaco" size="12" extra_width="0" bold="0" italic="0" smoothing="0" bold_intensified="0" italic_intensified="0" ligature="0">
+			<color use="0" r="0" g="0" b="0"/></font>
+		<window title="ConsoleZ" icon="" main_title_format="?U([%u] )?N({%u} )%m?s( - %s)" tab_title_format="%n. ?U([%u] )?N({%u} )%t?s( - %s)" use_tab_icon="1" use_tab_title="1" trim_tab_titles="20" trim_tab_titles_right="0"/>
+		<fullscreen start_in_fullscreen="1" fullscreen_monitor="0">
+			<controls show_menu="0" show_toolbar="0" show_searchbar="0" show_statusbar="0" show_tabs="1" hide_single_tab="1" tabs_on_bottom="0" hide_tab_icons="0" hide_tab_close_button="0" hide_tab_new_button="0" show_scrollbars="0"/>
+			<transparency type="1" active_alpha="243" inactive_alpha="205" r="0" g="0" b="0" active="1"/></fullscreen>
+		<controls show_menu="0" show_toolbar="0" show_searchbar="0" show_statusbar="0" show_tabs="1" hide_single_tab="1" tabs_on_bottom="0" hide_tab_icons="0" hide_tab_close_button="0" hide_tab_new_button="0" show_scrollbars="0"/>
+		<styles caption="1" resizable="0" taskbar_button="1" border="0" inside_border="2" split_bar_size="0" tray_icon="1" quake_like="0" quake_animation_time="300" jumplist="0" integrated_ime="0" hide_when_inactive="0" per_monitor_dpi="0" keep_view_theme="0">
 			<selection_color r="255" g="255" b="255"/>
-		</styles>
-		<position x="-1" y="-1" dock="-1" snap="-1" z_order="0" save_position="0" w="-1" h="-1" save_size="0"/>
-		<transparency type="1" active_alpha="243" inactive_alpha="205" r="0" g="0" b="0"/>
-		<fullscreen start_in_fullscreen="1" fullscreen_monitor="0"/>
-	</appearance>
+			<highlight_color r="191" g="191" b="191"/></styles>
+		<position x="-1" y="-1" save_position="0" w="-1" h="-1" save_size="0" z_order="0" dock="-1" snap="-1" save_state="0" state="-1"/>
+		<transparency type="1" active_alpha="255" inactive_alpha="255" r="0" g="0" b="0" active="1"/></appearance>
 	<behavior>
-		<copy_paste copy_on_select="1" clear_on_copy="1" no_wrap="1" trim_spaces="1" copy_newline_char="0" sensitive_copy="1" include_left_delimiter="0" include_right_delimiter="0" left_delimiters=" ([" right_delimiters=" )]" eol_spaces="1" rtf="1"/>
+		<copy_paste copy_on_select="1" clear_on_copy="1" sensitive_copy="1" no_wrap="1" eol_spaces="1" trim_spaces="1" rtf="1" copy_newline_char="0" include_left_delimiter="0" include_right_delimiter="0" left_delimiters=" ([" right_delimiters=" )]"/>
 		<scroll page_scroll_rows="0"/>
 		<tab_highlight flashes="3" stay_highligted="1"/>
-		<close allow_closing_last_view="0" confirm_closing_multiple_views="1"/>
+		<environment inherit="1" sync="1"/>
 		<focus follow_mouse="0"/>
 		<instance allow_multi="1"/>
 		<clone use_current_dir="1"/>
 		<search match_case="0" match_whole_word="0"/>
 		<runas use_credprov="1"/>
-	</behavior>
+		<close allow_closing_last_view="0" exit_on_closing_of_last_tab="1" confirm_closing_multiple_views="1" save_workspace_on_exit="0"/></behavior>
 	<hotkeys use_scroll_lock="1">
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="83" command="settings"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="112" command="help"/>
@@ -96,7 +77,9 @@
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="switchtab12"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="9" command="nexttab"/>
 		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="9" command="prevtab"/>
-		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="closetab"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="movetableft"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="movetabright"/>
+		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="87" command="closetab"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="renametab"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="1" code="34" command="nextview"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="1" code="33" command="prevview"/>
@@ -108,11 +91,12 @@
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="inchsize"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="decvsize"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="incvsize"/>
-		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="87" command="closeview"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="closeview"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="detachview"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="attach"/>
 		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="79" command="splithoriz"/>
 		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="69" command="splitvert"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="splitswap"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="clone"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="122" command="fullscreen"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="96" command="zoom100"/>
@@ -129,6 +113,23 @@
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="86" command="paste"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="paste_selection"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="stopscroll"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="resumescroll"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="textselleft"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="textselright"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="textseltop"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="textselbottom"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="textselhome"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="textselend"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="textselpageup"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="textselpagedown"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="colselleft"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="colselright"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="colseltop"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="colselbottom"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="colselhome"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="colselend"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="colselpageup"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="colselpagedown"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="scrollrowup"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="scrollrowdown"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="scrollpageup"/>
@@ -141,11 +142,16 @@
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="findnext"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="findprev"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="switchtransparency"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="alwaysontop"/>
 		<hotkey ctrl="1" shift="1" alt="0" extended="0" code="112" command="dumpbuffer"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="cmdMenu1"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="cmdMenu2"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="cmdMenu3"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="cmdSnippets"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="ctrlC"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="wspload"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="wspsave"/>
+		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="fwdmouse"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="externalcmd1"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="externalcmd2"/>
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="externalcmd3"/>
@@ -158,6 +164,8 @@
 		<hotkey ctrl="0" shift="0" alt="0" extended="0" code="0" command="externalcmd10"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="220" command="activate" win="0"/>
 	</hotkeys>
+	<external_commands>
+	</external_commands>
 	<mouse>
 		<actions>
 			<action ctrl="0" shift="0" alt="0" button="0" name="copy"/>
@@ -169,20 +177,17 @@
 			<action ctrl="0" shift="0" alt="0" button="2" name="menu"/>
 			<action ctrl="0" shift="0" alt="0" button="0" name="menu2"/>
 			<action ctrl="0" shift="0" alt="0" button="0" name="menu3"/>
-		</actions>
-	</mouse>
+			<action ctrl="0" shift="0" alt="0" button="0" name="snippets"/>
+		</actions></mouse>
+	<snippets dir=""/>
 	<tabs>
-		<tab title="ConsoleZ" use_default_icon="0">
-			<console shell="" init_dir="C:\Users\garyjohnson" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0">
+		<tab title="powershell" use_default_icon="0">
+			<console shell="powershell" init_dir="C:\Users\garyjohnson\repositories" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0"/>
+		</tab>
+		<tab title="bash" use_default_icon="0">
+			<console shell="bash" init_dir="C:\Users\garyjohnson\repositories" priority="2" run_as_user="0" user="" net_only="0" run_as_admin="0">
+				<env var="LS_COLORS" value="OW=01;36;40" check="1"/>
 				<env var="ANSICON" value="1" check="1"/>
 			</console>
-			<background type="0" r="7" g="54" b="66">
-				<image file="" relative="0" extend="0" position="0">
-					<tint opacity="0" r="0" g="0" b="0"/>
-				</image>
-			</background>
 		</tab>
-	</tabs>
-	<external_commands>
-</external_commands>
-</settings>
+	</tabs></settings>
